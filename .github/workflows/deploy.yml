@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r docs/requirements.txt  # This installs Sphinx and any other dependencies
+        pip install -r requirements.txt  # Use this if requirements.txt is in the root
 
     - name: Build documentation
       run: |
